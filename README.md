@@ -6,5 +6,5 @@ or https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpb
 Works in polish by default, for other languages just change in line 29:
 'Sponsorowane' to 'sponsored in your language'.
 
-Use script blockfb.js.
+Use script code from file blockfb.js.
 Profit!
