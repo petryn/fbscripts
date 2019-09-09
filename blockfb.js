@@ -28,7 +28,7 @@ function hideAds() {
         loopNodes(el);
         if (fullText == 'Sponsorowane') {
             console.log(el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode);
-            el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.innerHTML = "FUCK YOU FB!"
+            el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.innerHTML = "Hidden post!"
         }
     });
 }
