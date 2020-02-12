@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name     block FB sponsored posts
-// @version  1.0.0
+// @name     block FB sponsored posts and propositions
+// @version  1.1.0
 // @grant    none
 // @match    https://www.facebook.com/*
 // ==/UserScript==
@@ -28,7 +28,13 @@ function hideAds() {
         loopNodes(el);
         if (fullText == 'Sponsorowane') {
             console.log(el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode);
-            el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.innerHTML = "Hidden post!"
+            el.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.innerHTML = "Hidden sponsored"
+        }
+    });
+  
+    document.querySelectorAll(".x_9y3d1sxtq").forEach((el) => {
+        if(el.textContent == "Propozycje dla Ciebie"){
+          el.parentNode.parentNode.parentNode.parentNode.innerHTML = "Hidden proposition";
         }
     });
 }
