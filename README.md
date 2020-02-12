@@ -1,6 +1,6 @@
 # Block FB sponsored post
 
-Install:
+Install:  
 https://addons.mozilla.org/pl/firefox/addon/violentmonkey/ for FF  
 https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag for chrome.
 
