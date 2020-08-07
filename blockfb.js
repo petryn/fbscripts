@@ -28,9 +28,6 @@ function hideAds() {
           loopNodes(title_el);
         }        
         
-        console.log(fullText);
-        console.log(parent_div);
-        
         if (fullText == 'Sponsorowane') {          
           parent_div.innerHTML = "Hidden!";
         }
